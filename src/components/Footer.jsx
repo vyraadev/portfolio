@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="footer-right">
           <a href="mailto:shristisingh0714@gmail.com" className="footer-link">Email</a>
-          <a href="https://www.linkedin.com/in/shristi-singh" target="_blank" rel="noreferrer" className="footer-link">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/shristisingh0412" target="_blank" rel="noreferrer" className="footer-link">LinkedIn</a>
           <a href="https://github.com/vyraadev" target="_blank" rel="noreferrer" className="footer-link">GitHub</a>
         </div>
       </div>
