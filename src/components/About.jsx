@@ -35,7 +35,7 @@ export default function About() {
             </p>
             <div className="about-links">
               <a href="mailto:shristisamaira@gmail.com" className="about-link">
-                shristisamaira@gmail.com ↗
+                shristisingh0714@gmail.com ↗
               </a>
             </div>
           </div>
