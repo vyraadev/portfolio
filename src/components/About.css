@@ -1,0 +1,53 @@
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+
+.about-para { font-size: 15px; line-height: 1.85; color: var(--text-muted); margin-bottom: 18px; }
+
+.about-links { margin-top: 28px; }
+
+.about-link {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--neon-cyan);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,245,212,0.3);
+  padding-bottom: 2px;
+  transition: border-color 0.2s;
+}
+
+.about-link:hover { border-color: var(--neon-cyan); }
+
+.facts-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 20px; }
+
+.facts-header { padding: 14px 20px; border-bottom: 1px solid var(--border); background: rgba(0,245,212,0.03); }
+
+.fact-row {
+  display: flex; gap: 14px; align-items: flex-start;
+  padding: 14px 20px; border-bottom: 1px solid var(--border);
+  transition: background 0.2s;
+}
+
+.fact-row:last-child { border-bottom: none; }
+.fact-row:hover { background: rgba(0,245,212,0.03); }
+
+.fact-icon { color: var(--neon-pink); font-size: 12px; padding-top: 2px; flex-shrink: 0; }
+
+.fact-label { font-family: var(--font-mono); font-size: 10px; color: var(--text-dim); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 3px; }
+
+.fact-value { font-size: 13px; color: var(--text); font-weight: 500; }
+
+.about-terminal { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+
+.terminal-bar { padding: 10px 16px; background: var(--bg2); display: flex; align-items: center; gap: 6px; border-bottom: 1px solid var(--border); }
+
+.t-dot { width: 10px; height: 10px; border-radius: 50%; display: block; }
+
+.t-title { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); margin-left: 8px; }
+
+.terminal-body { padding: 20px; font-family: var(--font-mono); font-size: 13px; line-height: 2; }
+
+.t-key { color: var(--neon-purple); }
+.t-colon { color: var(--text-muted); }
+.t-str { color: var(--neon-cyan); }
+.t-bool { color: var(--neon-pink); }
+
+@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; gap: 40px; } }
