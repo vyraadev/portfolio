@@ -34,7 +34,7 @@ export default function About() {
               I believe the best content creators of tomorrow understand how products are actually built.
             </p>
             <div className="about-links">
-              <a href="mailto:shristisamaira@gmail.com" className="about-link">
+              <a href="mailto:shristisingh0714@gmail.com" className="about-link">
                 shristisingh0714@gmail.com ↗
               </a>
             </div>
