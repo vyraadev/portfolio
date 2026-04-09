@@ -3,7 +3,7 @@ import './Contact.css'
 
 const socials = [
   { label: 'Email', value: 'shristisingh0714@gmail.com', href: 'mailto:shristisingh0714@gmail.com', icon: '✉' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/shristi-singh', href: 'https://www.linkedin.com/in/shristi-singh', icon: '⬡' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/shristisingh0412', href: 'https://www.linkedin.com/in/shristisingh0412', icon: '⬡' },
   { label: 'Phone', value: '+91 8677002211', href: 'tel:+918677002211', icon: '◎' },
   { label: 'Location', value: 'Lucknow, India', href: null, icon: '◈' },
 ]
@@ -49,7 +49,7 @@ export default function Contact() {
           <div className="contact-right">
             <div className="contact-cta-box">
               <div className="cta-label mono-tag" style={{ marginBottom: 16 }}>// ready to work together?</div>
-              <h3 className="cta-heading">Drop me a line —<br /><span>I don't bite.</span></h3>
+              <h3 className="cta-heading">Drop me a line —<br /><span>I will respose asap.</span></h3>
               <p className="cta-sub">Whether it's a quick hello or a detailed brief, my inbox is always open.</p>
               <div className="cta-actions">
                 <a href="mailto:shristisingh0714@gmail.com" className="btn-primary">Send an email ↗</a>
